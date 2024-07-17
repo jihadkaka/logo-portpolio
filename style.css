@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: rgb(23, 23, 23);
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.main {
+    padding: 0 150px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 40px;
+}
+
+.nav-left {
+    color: rgb(246, 92, 36);
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.nav-right {
+    display: flex;
+    gap: 40px;
+}
+
+.last-nav {
+    background-color: rgb(246, 92, 36);
+    padding: 4px 9px;
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+
+}
+.left-profile {
+    padding: 30px 0;
+    flex: 1;
+}
+.left-profile p{
+    font-size: 12px;
+}
+.right-picture{
+    flex: 1;
+    text-align: right;
+}
+
+.second-line {
+    display: flex;
+    gap: 13px;
+}
+
+.left-profile span {
+    font-size:24px;
+    font-weight: 800;
+}
+
+.right-picture img {
+    width: 320px;
+    height: 370px;
+}
+
+.about {
+    text-align: left;
+    overflow: hidden;
+}
+
+.star {
+    height: 25px;
+    padding-top: 13px;
+    text-align: right;
+}
+
+.color {
+    color: rgb(246, 92, 36);
+}
+
+.skill {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+   
+    
+}
+
+.skill p {
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+.demo {
+    overflow: hidden;
+    position: absolute;
+    z-index: 10;
+    top: -50px;
+    
+
+}
+
+.demo img {
+    height: 130px;
+    width:76vw;
+    overflow: hidden;
+}
+
+.portpolio {
+
+    gap: 20px;
+    justify-items: center;
+    height: 44px;
+    width: 190px;
+    background-color: rgb(54, 51, 51);
+    border-radius: 22px;
+    margin-top: 15px;
+    border: 1px solid cornsilk;
+    font-size: 14px;
+
+}
+
+.portpolio p {
+    display: inline-block;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.portpolio1 {
+
+    background-color: rgb(246, 92, 36);
+    font-weight: 200;
+    font-size: 12px;
+    border-radius: 19px;
+    margin-top:5px;
+    margin-left:5px;
+    padding:7px 11px;
+    text-align: center;
+}
+
+.hire-me {
+    padding: 0 9px;
+    font-weight: 100;
+}
+
+.link {
+    margin-top: 10px;
+}
+.part{
+    position: relative;
+
+}
+
+.about-me {
+    display: flex;
+    padding-top:130px;
+    justify-content: space-between;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+
+    height: 250px;
+    background-color: rgb(37, 32, 32);
+    margin-top: 60px;
+    padding: 90px 150px;
+
+
+}
+
+.first p {
+    font-size: 14px;
+}
+
+.first-right {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+.first-left {
+    flex: 1;
+    text-align: center;
+    padding-right: 30px;
+    text-align: left;
+    padding-top: 40px;
+}
+
+.first-right-first {
+    display: flex;
+    gap: 180px;
+    line-height: 17px;
+}
+
+.first-right h2 {
+    border-bottom: 1px solid snow;
+
+}
+
+.awards p {
+    font-size: 12px;
+}
+
+.mid-first {
+    padding: 90px 0;
+    text-align:center;
+
+}
+
+.design {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    text-align: left;
+
+}
+
+.design-left {
+    flex:4;
+    padding-left: 30px;
+}
+.design-left p{
+    padding-top: 30px;
+}
+.design-right{
+    flex: 2;
+    text-align: center;
+}
+
+.my-portpolio {
+    text-align: center;
+}
+
+.port-desc {
+    font-size: 12px;
+    padding: 15px 300px;
+}
+
+.nav-mid {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 230px;
+}
+
+.mid {
+    padding: 0 150px;
+}
+
+.normal {
+    padding: 4px 9px;
+    background-color: black;
+}
+
+.ux {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.desc {
+    padding: 30px;
+    text-align: left;
+}
+
+.desc p {
+    font-size: 12px;
+    padding: 8px 0;
+}
+.desc h2 {
+    
+    padding: 8px 0;
+}
+.desc h5 {
+    
+    padding: 8px 0;
+}
+.image img{
+width: 320px;
+
+}
+
+footer {
+    padding-top: 60px;
+    background-color: black;
+    text-align: center;
+}
+
+footer h1 {
+    color: rgb(246, 92, 36);
+    text-align: center;
+
+}
+
+.nav-last {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+
+}
+
+.footer-last {
+    height: 50px;
+    background-color: rgb(23, 22, 22);
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.footer-last div {
+    display: inline-block;
+    padding-left: 5px;
+    padding-top: 15px;
+}
+
+.contact {
+
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+.any {
+    padding: 30px 150px;
+    height: fit-content;
+    background-color: rgb(61, 51, 40);
+    margin-top: 30px;
+}
+
+
+.property {
+    padding-right: 250px;
+    border-bottom: 1px solid white;
+    text-align: left;
+    padding-top: 40px;
+}
+
+.name-email {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.message {
+
+    text-align: left;
+    padding: 40px 0;
+
+}
+
+.attach {
+    text-align: left;
+    padding-top: 10px;
+    border-top: 1px solid white;
+}
+
+
+
+@media only screen and (max-width:600px) {
+
+    .about-me {
+        margin: 0 auto;
+    }
+
+    .body {
+        margin: 0 auto;
+    }
+
+    .main {
+        padding: 0 10px;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .nav-left {
+        text-align: center;
+        margin: auto;
+    }
+
+    .nav-right {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-top: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .last-nav {
+        width: max-content;
+    }
+
+    .profile h2 {
+        font-size: 30px;
+    }
+
+    .profile {
+        flex-direction: column;
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .second-line {
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10px;
+
+    }
+
+    .portpolio {
+        text-align: center;
+        margin: auto;
+    }
+    .skill {
+        padding-bottom: 15px;
+        justify-content: space-between;
+    }
+    .right-picture{
+        text-align:center;
+    }
+
+    .about-me {
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+
+    .first {
+        flex-direction: column;
+        justify-content: space-between;
+        height: fit-content;
+        text-align: center;
+        background-color: rgb(37, 32, 32);
+        margin-top: 60px;
+        padding: 80px 0;
+        row-gap: 30px;
+        align-items: center;
+
+
+    }
+    .first-left{
+        padding: 0 10px;
+        text-align: center;
+    }
+    .first-right{
+        padding: 0 10px;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .first-left p{
+        text-align: center;
+    }
+    .block{
+        text-align: center;
+    }
+    .demo{
+    overflow: hidden;
+    }
+
+    .demo img {
+        height: 130px;
+        width: 95vw;
+    }
+
+    .first-right-first {
+        display: flex;
+        justify-content: space-around;
+        gap: 80px;
+        line-height: 17px;
+    }
+
+    .awards {
+        padding: 0;
+    }
+
+    .design {
+        flex-direction: column;
+    }
+
+    .port-desc {
+        font-size: 12px;
+        padding: 15px 0;
+    }
+
+    .mid {
+        padding: 0 10px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .nav-mid {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0px;
+    }
+
+    .ux {
+        flex-direction: column;
+
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .ux img {
+        width: 300px;
+    }
+
+    .nav-last {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    footer {
+        padding: 30px 10px;
+    }
+
+    .name-email {
+        flex-direction: column;
+
+    }
+
+    .property {
+        padding-right: 100px;
+        border-bottom: 1px solid white;
+        text-align: left;
+        padding-top: 40px;
+    }
+
+    .any {
+        padding: 30px 50px;
+        height: fit-content;
+        background-color: rgb(61, 51, 40);
+        margin-top: 30px;
+    }
+
+}
